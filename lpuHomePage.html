@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex h-screen">
+      <div
+        class="hidden md:block w-1/2 bg-cover bg-center"
+        style="background-image: url('https://files.lpu.in//umsweb//Events//umseventAssets//27273_2025_2_11_9_30.jpg');"
+      ></div>
+
+      <div class="w-full md:w-1/2 flex items-center justify-center bg-orange-50 p-6">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm transform transition-all hover:scale-105">
+          <div class="flex justify-center">
+            <img src="https://ums.lpu.in/lpuums/assets/login/img/logos/seal.svg" alt="" class="h-12" />
+          </div>
+          <div class="flex justify-center mt-2">
+            <img src="https://ums.lpu.in/lpuums/assets/login/img/logos/ums_logo1.svg" alt="" class="h-10" />
+          </div>
+
+          <h2 class="text-center text-2xl font-bold mt-4">Log In</h2>
+
+          <div class="mt-4">
+            <label class="block text-gray-700 font-medium">User Name:</label>
+            <input
+              type="text"
+              placeholder="Registration Number"
+              class="border p-2 w-full rounded focus:ring-2 focus:ring-orange-400 focus:outline-none transition-all"
+            />
+          </div>
+
+          <div class="mt-4">
+            <label class="block text-gray-700 font-medium">Password:</label>
+            <input
+              type="password"
+              placeholder="Password"
+              class="border p-2 w-full rounded focus:ring-2 focus:ring-orange-400 focus:outline-none transition-all"
+            />
+          </div>
+
+          <button class="bg-orange-500 text-white p-2 w-full rounded mt-4 hover:bg-orange-600 transition-all">Login</button>
+
+          <div class="text-center mt-3">
+            <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
